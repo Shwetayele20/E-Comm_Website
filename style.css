@@ -1,0 +1,390 @@
+/* Common Classes */
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.wrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.arrange-left{
+    float: left;
+}
+.wid-25{
+    width:25%;
+}
+.wid-50{
+    width: 50%;
+    margin-top: 12px;
+}
+.wid-20{
+    width: 20%;
+}
+.wid-75{
+    width: 75%;
+}
+.wid-33{
+    width:33.3% ;
+}
+ul li a{
+    text-decoration: none;
+    color: #333;
+}
+ul li a:hover{
+    color: #FFB534;
+}
+.counts button{
+    height: 40px;
+    background: none;
+    border: 1px solid #ddd;
+    color: #C51605;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 10px;
+}
+.counts button i{
+    padding-left: 5px;
+    padding-right: 8px;
+}
+
+.next-wrapper{
+    clear: both;   /* next wrapper */ /* fixing the side in left to the category */
+}
+.category-item{
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 5px #ccc;
+    padding: 20px;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+.bgcolor1{
+    background: #FFB534;
+}
+.bgcolor2{
+    background: #6A9C89;
+}
+button{
+    cursor: pointer;
+}
+.margin-right{
+    margin-right: 5%;
+}
+
+
+/* All classes */
+
+.header{
+    margin-top: 10px;
+    min-height: 80px;
+}
+.logo h1{
+    margin: 0;
+    font-size: 40px;
+    font-family: "DM Serif Text", serif;
+
+}
+.logo h1 span:first-of-type{
+    color: #FFB534;
+    padding: 0px 8px;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+}
+
+.search-bar input{
+    width: 70%;
+    border: 1px solid #ddd;
+    padding: 11px;
+    font-size: 15px;
+    border-right: none;
+    color: #ddd;
+}
+.search-bar input:focus{
+    outline: none;
+    color: black;
+}
+
+.search-bar button{
+    border: 1px solid #ddd;
+    height: 40px;
+    font-size: 15px;
+    margin-left: -4px;
+    color: #FFB534;
+    background: none;
+    padding: 10px;
+}
+.counts{
+    text-align: right;
+}
+
+/* This is the next section included in that - category , menu and banner */
+
+.full-wrapper{
+    border-top: 1px solid #ddd;
+}
+.list-item {
+    background-color: #FFB534;
+    margin-top: 10px;
+    height: 50px;
+}
+.list-item h3{
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.list-item span i{
+    float: right;
+    padding: 20px;
+}
+.banner-data ul{
+    list-style-type: none;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding-left: 0;
+}
+.category-list ul li{
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+ 
+/* Start the menu items */
+
+.menu-item{
+    display: flex;
+    font-size: 15px;
+}
+.menu-item ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-item ul li{
+    padding: 20px;
+    min-width: 75px;
+}
+ul.droplist{
+    display: none;
+    border: 1px solid #ddd;
+    box-shadow:  1px 1px 4px #ddd;
+    position: absolute;
+    padding: 5px;
+}
+ul.droplist li{
+    padding: 15px;
+}
+ .Drop-Down:hover ul.droplist{
+    display: block;
+}
+ul.right-list{
+    direction: rtl;
+}
+
+/* this is banner */
+
+.banner{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-para{
+    position: absolute;
+    top: 190px;
+    left: 77px;
+}
+.banner-para h4{
+    width: 40%;
+    margin-left: 60px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.banner-para h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+ /* This is the  4 features  */
+
+.features{
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    margin-right: 20px;
+    box-shadow: 1px 2px 5px #ccc;
+    text-align: right;
+
+}
+.icon-wrap{
+    color: #FFB534;
+    font-weight: 900;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.features span{
+    font-weight: 500;
+}
+
+/*  product category section*/
+
+.product-count{
+    text-align: right;
+    padding-bottom: 20px;
+}
+.product-image img{
+    width: 50%;
+    height: 300px;
+    padding-left: 70px;
+}
+.product-name h3{
+    margin-bottom: 0px;
+}
+
+/* Offer Banner Section */
+
+.offer{
+    display: flex;
+}
+.offer-image img{
+    width: 100%;
+}
+.offer-data {
+    padding: 20px;
+    text-align: center;
+}
+.offer-data button{
+    width: 30%;
+    border: 1px solid ;
+    padding: 5px;
+    border-radius: 40px;
+    text-align: center;
+}
+.offer-data button:hover{
+    background: #FF748B;
+}
+
+.offer-data p{
+    font-family: Dancing script , sass-serif;
+    font-weight: 900;
+}
+
+ /*  cart details Section  */
+
+.cart-image img{
+    width: 100%;
+    height: 400px;
+}
+.cart-details h3{
+    margin-bottom: 0;
+}
+.cart-details .price {
+    display: flex;
+    font-size: 20px;
+    gap: 2rem;
+    color: #000;
+}
+.cart-details .price .last {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.cart-views{
+    font-size: 12px;
+}
+.cart-views a{
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    padding-left: 0px;
+    margin-right: 40px;
+}
+
+/* Stay Updated Section */
+
+.stay-details{
+    margin-left: -5.5%;
+    margin-right: -5.5%;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.input-box input{
+    padding: 5px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+.input-box button{
+    padding: 5px;
+    border: 1px solid #ccc;
+    background: white;
+    color: #FFB534;
+}
+
+/* Brand Section */
+
+.brand{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.brand img{
+    width: 10%;
+    border: 1px solid #ccc;
+}
+
+/* Footer Section */
+
+.footer{
+    margin-top: 50px;
+    margin-left: -5.5%;
+    margin-right: -5.5%;
+    padding: 30px;
+    text-align: justify;
+}
+.footer-details ul.address-list{
+    list-style-type: none;
+    font-size: 15px;
+    padding-left: 0;
+    width: 50%;
+} 
+ul.address-list i{
+    padding: 5px;
+    color: #FFB534;
+}
+.input-info input , .input-info button{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 40px;
+    width: 40%;
+}
+.input-info ::placeholder{
+    color: #FFB534;
+}
+.copy-right{
+    text-align: right;
+    margin-left: -5.5%;
+    margin-right: -5.5%;
+    font-size: 12px;
+    height: 30px;
+    padding: 10px;
+}

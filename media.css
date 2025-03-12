@@ -1,0 +1,53 @@
+@media only screen and (max-width: 960px) {
+  .arrange-left {
+    float: none;
+  }
+  .wid-25,
+  .wid-50,
+  .wid-75,
+  .wid-20,
+  .wid-33 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .counts {
+    text-align: left;
+  }
+  .menu-item{
+    display: flex;
+    font-size: 12px;
+}
+.menu-item ul li{
+  padding:5px;
+  min-width: 45px;
+}
+.menu-item .left-list {
+    width: 75%;
+}
+.menu-item .right-list {
+    width: 25%;
+} 
+.Drop-Down i, .droplist{
+  display: none;
+}
+
+.banner{
+  width: 100%;
+  height: 250px;
+  position: relative;
+  float: none;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.banner-para{
+  top: 50px;
+    left: 20px;
+    font-size: 10px;
+    padding: 20px;
+}
+.offer-data button{
+    width: 50%;
+}
+}

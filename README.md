@@ -14,7 +14,7 @@ It is a fully responsive ecommerce website, maximum compatiblities in all mobile
 ![Logo](https://github.com/Shwetayele20/E-Comm_Website/blob/main/logo.png)
 
 
-## What we will devlop ?
+## What we will develop ?
 
 - E-commerce Website
 - Responsive without using Bootstrap

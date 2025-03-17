@@ -9,7 +9,7 @@ It is a fully responsive ecommerce website, maximum compatiblities in all mobile
 
 ## Demo
 
-![Website Video](https://github.com/Shwetayele20/E-Comm_Website/blob/main/F-Cart%20Website.mp4)
+https://github.com/user-attachments/assets/ec07cca6-f72f-44e4-95a7-4faa31dd849a
 
 ![Logo](https://github.com/Shwetayele20/E-Comm_Website/blob/main/logo.png)
 
